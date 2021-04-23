@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{04682FC5-8020-459B-A0FC-72AA31AA211B}" SchemaVersion="97">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{04682FC5-8020-459B-A0FC-72AA31AA211B}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Devil in the Churchyard_HQ" ID="{8D5BB44A-5A61-4276-916E-698983AC1690}" ShortID="297779751">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BDDF674C-12DD-4E67-BE7F-BF14E3D60DF9}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B92ACE05-0F86-4D53-A188-7112D6D5FF3D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Devil in the Churchyard_HQ" ID="{BAFF7E6B-C5BB-44EF-9352-A08C1831E5C3}">
+							<Language>SFX</Language>
+							<AudioFile>Devil in the Churchyard_HQ.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="892498137"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Devil in the Churchyard_HQ" ID="{BAFF7E6B-C5BB-44EF-9352-A08C1831E5C3}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
